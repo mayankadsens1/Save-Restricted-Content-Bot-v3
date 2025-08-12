@@ -19,8 +19,8 @@ YTUB_COOKIES = """
 
 API_ID = os.getenv("API_ID", "23159366")
 API_HASH = os.getenv("API_HASH", "4623dd30dd1303bddb729eb0862262d9")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6598452023:AAGtyH-2z4Di679l5U5ircbgpHskd8cA7OM")
-MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://WarriorPlayer:WarriorPlayer@warriorplayer.jez7rqs.mongodb.net/?retryWrites=true&w=majority&appName=Warriorplayer")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6598452d8cA7OM")
+MONGO_DB = os.getenv("MONGO_DB", "mongo")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "5222155765").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "WarriorSaver")
 STRING = os.getenv("STRING", None) # optional
@@ -34,5 +34,6 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
 JOIN_LINK = os.getenv("JOIN_LINK", "https://t.me/WarriorUnitsBots") # this link for start command message
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/oo7jatji")
+
 
 
